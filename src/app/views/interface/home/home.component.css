@@ -34,3 +34,25 @@
   .buy-button:hover {
     background-color: #d8b226; /* Couleur de fond au survol */
   }
+.custom-button {
+  background-color: chocolate;
+  border: none; /* Supprime les bordures du bouton */
+  padding: 10px 20px; /* Ajustez la taille du bouton en fonction de vos besoins */
+  border-radius: 5px; /* Arrondi les coins du bouton */
+  cursor: pointer; /* Change le curseur en une main au survol */
+  margin-top: -300px;
+}
+
+.custom-button:hover {
+  background-color: #fff; /* Change la couleur de fond au survol */
+}
+
+
+.passer {
+  color: black;
+  text-decoration: none; /* Supprime le soulignement par défaut du lien */
+}
+
+.passer:hover {
+  text-decoration: underline; /* Souligne le texte du lien au survol */
+}
